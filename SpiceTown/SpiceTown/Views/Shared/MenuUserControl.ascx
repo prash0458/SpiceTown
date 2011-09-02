@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
-<ul id="verticalmenu">
+<ul id="verticalmenu">   
     <li id = "Starters">
         <%: Html.ActionLink("Starters","Starters","SubMenu") %></li>
     <li id ="Subs">

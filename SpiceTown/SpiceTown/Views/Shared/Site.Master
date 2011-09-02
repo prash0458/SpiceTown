@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-
+   
 <!DOCTYPE html>
 <html>
 <head runat="server">
