@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceTown", "SpiceTown\SpiceTown.csproj", "{E80B74CB-394D-4B77-A75F-437CCB8E23D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceTown.Tests", "SpiceTown.Tests\SpiceTown.Tests.csproj", "{BEC6FB27-6F46-495E-95AE-11C997A80584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E80B74CB-394D-4B77-A75F-437CCB8E23D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80B74CB-394D-4B77-A75F-437CCB8E23D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80B74CB-394D-4B77-A75F-437CCB8E23D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80B74CB-394D-4B77-A75F-437CCB8E23D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC6FB27-6F46-495E-95AE-11C997A80584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC6FB27-6F46-495E-95AE-11C997A80584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC6FB27-6F46-495E-95AE-11C997A80584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC6FB27-6F46-495E-95AE-11C997A80584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

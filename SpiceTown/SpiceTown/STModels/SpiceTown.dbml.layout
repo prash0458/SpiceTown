@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SpiceTown">
+  <DataContextMoniker Name="/SpiceTownDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e89b33bd-fae4-4b09-9e01-8dc5e298c439" absoluteBounds="5.625, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SpiceTownDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b14a6c33-fd11-477c-bbe8-6359add894e0" absoluteBounds="5.64, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2553ad1-10c9-4465-ab2d-1a1523225e28" absoluteBounds="3, 2.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SpiceTownDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e33452e-c7bd-4b30-adc2-210ef7640887" absoluteBounds="3.015, 2.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.625 : 2.60179768880208); (5 : 2.60179768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SpiceTownDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="e89b33bd-fae4-4b09-9e01-8dc5e298c439" />
+        <classShapeMoniker Id="e2553ad1-10c9-4465-ab2d-1a1523225e28" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="518fda8c-2322-4ee6-a3c3-d6a5643ff707" absoluteBounds="2.625, 4.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SpiceTownDataContext/Pizza" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ede8ad88-741a-4a48-b7ab-111e2096a5ad" absoluteBounds="2.64, 5.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 3.07859537760417); (6.625 : 6.04890055338542); (4.625 : 6.04890055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SpiceTownDataContext/Category/Category_Pizza" />
+      <nodes>
+        <classShapeMoniker Id="e89b33bd-fae4-4b09-9e01-8dc5e298c439" />
+        <classShapeMoniker Id="518fda8c-2322-4ee6-a3c3-d6a5643ff707" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5ee47c02-06b0-407b-8903-dddf79d1f642" absoluteBounds="8.25, 4.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SpiceTownDataContext/Sub" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71bc740d-7b91-4226-bf6d-6d064e3d9a64" absoluteBounds="8.265, 4.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.1562525 : 3.07859537760417); (7.1562525 : 5.27445027669271); (8.25 : 5.27445027669271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SpiceTownDataContext/Category/Category_Sub" />
+      <nodes>
+        <classShapeMoniker Id="e89b33bd-fae4-4b09-9e01-8dc5e298c439" />
+        <classShapeMoniker Id="5ee47c02-06b0-407b-8903-dddf79d1f642" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

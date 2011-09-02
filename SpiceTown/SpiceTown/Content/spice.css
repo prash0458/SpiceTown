@@ -1,0 +1,344 @@
+﻿body {
+    background-color: #FFA500; /*Orange*/
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    margin : 0;
+    padding: 0;
+   /* color: #696969; */ /*Dark Grey*/
+   
+}
+
+
+.body-container	 
+{
+    min-width: 600px; max-width:1004px;margin:10px auto;               	  
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+
+header h1, #header h1 {
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    color: #fff;
+    border: none;
+    line-height: 2em;
+    font-size: 32px !important;
+    text-shadow: 1px 1px 2px #111;
+}
+
+/***-------------------------------------*/
+.page {
+    width: 850px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFF8c6; /*Cream*/
+}
+
+#main {
+    padding: 30px 30px 15px 30px;
+    background-color: #fff;
+    border-radius: 4px 0 0 0;
+    -webkit-border-radius: 4px 0 0 0;
+    -moz-border-radius: 4px 0 0 0;
+}
+
+footer, 
+#footer 
+{
+    width:auto;
+    background-color: #fff;
+    color: #999; /* Grey */
+    padding: 10px 0;
+    text-align: center;
+    line-height: normal;
+   
+    font-size: .9em;
+    border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;    
+    
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+ul#menu {
+   border-bottom: 1px #5C87B2 solid; /*sky blue*/
+    padding: 0 0 2px; 
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+ul#menu li {
+    display: inline;
+    list-style: none;
+}
+
+ul#menu li#greeting {
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff; /*white*/
+}
+
+ul#menu li a {
+    padding: 5px 5px;
+    font-family:Centaur;
+    font-size:large;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    background-color: #e8eef4; /*grey*/
+    color: #034af3; /*Dark Blue*/
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;          
+}
+
+ul#menu li a:hover {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+ul#menu li a:active {
+    background-color: #a6e2a6; /*light green*/
+    text-decoration: none;  
+}
+
+ul#menu li.selected a {
+    background-color: #fff;
+    color: #000;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear {
+    clear: both;
+}
+
+.error {
+    color: Red;
+}
+
+nav, 
+#menucontainer {
+    margin-top: 40px;
+    height:auto;
+}
+
+#menucontainer table tr td
+{
+     width: 150px;      
+     vertical-align: top;
+ }
+
+div#title {
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+#logindisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    margin: 0px;
+    color: White;
+    height:35px;
+}
+
+#logindisplay a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Vertical MENU   
+----------------------------------------------------------*/
+ul#verticalmenu      
+{
+   /*border-bottom: 1px #5C87B2 solid;*/
+    padding: 0 0 2px;
+    position: relative;
+    margin: 0px;
+    text-align: left;
+}
+
+ul#verticalmenu li 
+{    
+    height:40px;
+    width:150px;
+    vertical-align:top;    
+    display: block;    
+    list-style: none;
+}
+
+ul#verticalmenu li#greeting {
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff;
+}
+
+ul#verticalmenu li a 
+{   
+    font-family: Centaur;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 5px  ;
+    text-decoration: none;         
+    color:Maroon;         
+}
+
+ul#verticalmenu li a:hover 
+{
+    color:Red;   
+    text-decoration: none;
+}
+
+ul#verticalmenu li a:active {
+    background-color: #a6e2a6; /*lite green*/
+    text-decoration: none;
+}
+
+ul#verticalmenu li.selected a
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.mainmenucontainer{height:inherit;}
+.mainmenucontainer table tr
+{
+    width:auto;
+}
+.mainmenucontainer table tr td
+{      
+    vertical-align:top;
+    width: 150px;        
+    text-align: center;
+}
+#maindiv
+{
+    width:562px;
+    height:auto;
+}
+#maindiv tr td ul li
+{          
+list-style:none;
+/*display:block;*/
+}
+
+#leftsidelogo
+{
+    width:125px;
+    height:725px;
+}
+            
+.mainmenucontainer table tr td div
+{
+    vertical-align:top;
+}
+
+#orderandprice
+{
+    width:562px;
+    vertical-align:top;   
+    border:1;
+}
+           
+#orderandprice tr td ul
+{
+    list-style-type:georgian;        
+    
+    margin:0;
+    padding:0;
+    height:auto;
+}
+
+
+#orderandprice tr th
+{
+    align:center;
+}
+
+#orderandprice tr td ul li
+{             
+    text-align:left;                                          
+    height:auto;
+    padding-left:10px;
+    border-bottom-color:Black;
+    border-bottom-width:thin;
+    margin-top: 1em;
+    clear: left; 
+    list-style-type: none; 
+    padding: 0.8em 0 1em 0; 
+    border: solid 1px black; 
+    background:#f8c771;
+    text-align:center;
+} 
+
+#catergories
+{
+      width:562px;
+    vertical-align:top;
+    }
+    
+    #catergories tr td ul li
+{                                              
+    height:auto;
+    padding-left:10px;
+    list-style-type:circle;
+    border-bottom-width:thin;
+    margin-top: 1em;
+    clear: left; 
+      list-style-type: none; 
+      padding: 0.8em 0 1em 0; 
+ 
+   background:#81BEF7;
+   text-align:center;
+} 
+
+/*************** mainmenucontainer *************************/
+
+
+
+/* TABLE ----------------------------------------------------------*/
+
+table {
+    border: solid 1px #99999;  /*e8eef4*/
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 0px;
+    border: solid 1px #e8eef4;
+}
+
+table th {
+    padding: 6px 5px;
+    text-align: center;
+    background-color: #f8c771;  
+    border: solid 1px black; /*e8eef4*/
+}

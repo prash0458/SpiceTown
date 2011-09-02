@@ -1,0 +1,21 @@
+F:\Prash\SpiceTown\SpiceTown\bin\SpiceTown.dll
+F:\Prash\SpiceTown\SpiceTown\bin\SpiceTown.pdb
+F:\Prash\SpiceTown\SpiceTown\bin\EntityFramework.dll
+F:\Prash\SpiceTown\SpiceTown\bin\EntityFramework.xml
+F:\Prash\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
+F:\Prash\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
+F:\Prash\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.dll
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.pdb
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.dll
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.xml
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.dll
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.pdb
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.dll
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.xml
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
+C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb

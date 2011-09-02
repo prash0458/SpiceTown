@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4508ed8b-dbf1-4b7e-8fda-169b504965d6" name="prashanth.velijala@2RXHYJ1 2011-07-20 14:41:11" runUser="CORP\prashanth.velijala" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9233077e-92c7-4382-978f-9bd8e674d1c2">
+    <Deployment runDeploymentRoot="prashanth.velijala_2RXHYJ1 2011-07-20 14_41_11">
+      <DeploymentItem filename="C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-20T14:41:11.5847694-06:00" queuing="2011-07-20T14:41:15.1745357-06:00" start="2011-07-20T14:41:15.3903413-06:00" finish="2011-07-20T14:41:17.1457600-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\prashanth.velijala\documents\visual studio 2010\work\spicetown\spicetown.tests\bin\debug\spicetown.tests.dll" id="83de98d1-7c36-e2fb-14d4-95c2f91417c7">
+      <Execution id="1677f4c4-d0a9-45d1-b526-8e223791708c" />
+      <TestMethod codeBase="C:/Users/prashanth.velijala/Documents/Visual Studio 2010/Work/SpiceTown/SpiceTown.Tests/bin/Debug/SpiceTown.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiceTown.Tests.Controllers.HomeControllerTest, SpiceTown.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\prashanth.velijala\documents\visual studio 2010\work\spicetown\spicetown.tests\bin\debug\spicetown.tests.dll" id="95e2a625-6f85-0275-9420-ed847affe49d">
+      <Execution id="5c0570c7-2fde-4be8-ac23-f0f0c832623e" />
+      <TestMethod codeBase="C:/Users/prashanth.velijala/Documents/Visual Studio 2010/Work/SpiceTown/SpiceTown.Tests/bin/Debug/SpiceTown.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiceTown.Tests.Controllers.HomeControllerTest, SpiceTown.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="83de98d1-7c36-e2fb-14d4-95c2f91417c7" executionId="1677f4c4-d0a9-45d1-b526-8e223791708c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95e2a625-6f85-0275-9420-ed847affe49d" executionId="5c0570c7-2fde-4be8-ac23-f0f0c832623e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1677f4c4-d0a9-45d1-b526-8e223791708c" testId="83de98d1-7c36-e2fb-14d4-95c2f91417c7" testName="Index" computerName="2RXHYJ1" duration="00:00:00.2893647" startTime="2011-07-20T14:41:15.6670920-06:00" endTime="2011-07-20T14:41:16.8969841-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1677f4c4-d0a9-45d1-b526-8e223791708c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c0570c7-2fde-4be8-ac23-f0f0c832623e" testId="95e2a625-6f85-0275-9420-ed847affe49d" testName="About" computerName="2RXHYJ1" duration="00:00:00.0004088" startTime="2011-07-20T14:41:16.9419436-06:00" endTime="2011-07-20T14:41:16.9579292-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c0570c7-2fde-4be8-ac23-f0f0c832623e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E80B74CB-394D-4B77-A75F-437CCB8E23D5}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpiceTown</RootNamespace>
+    <AssemblyName>SpiceTown</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Channels" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PizzaController.cs" />
+    <Compile Include="Controllers\SubMenuController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Herndon.cs" />
+    <Compile Include="Models\Shopping.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ISpiceTownRepository.cs" />
+    <Compile Include="Repository\SpiceTownRepository.cs" />
+    <Compile Include="STModels\SpiceTown.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpiceTown.dbml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Img\bkg.jpg" />
+    <Content Include="Content\Img\btn-go.png" />
+    <Content Include="Content\Img\btn-login.png" />
+    <Content Include="Content\Img\button-google.png" />
+    <Content Include="Content\Img\button-twitter.png" />
+    <Content Include="Content\Img\button-yahoo.png" />
+    <Content Include="Content\Img\content-bottom.png" />
+    <Content Include="Content\Img\content-top.png" />
+    <Content Include="Content\Img\exclamation.png" />
+    <Content Include="Images\corners.jpg" />
+    <Content Include="Images\pizza\addlittlespiceinyourlife.PNG" />
+    <Content Include="Images\pizza\addtocart.gif" />
+    <Content Include="Images\pizza\appetizers_1__slider.png" />
+    <Content Include="Images\pizza\Burgers_slider.png" />
+    <Content Include="Images\pizza\chickenslices_slider.png" />
+    <Content Include="Images\pizza\desserts_slider.png" />
+    <Content Include="Images\pizza\facebook-ico.gif" />
+    <Content Include="Content\Img\google.gif" />
+    <Content Include="Content\Img\header-bkg.jpg" />
+    <Content Include="Content\Img\hm-content-bkg.png" />
+    <Content Include="Content\Img\hm-content-bottom.png" />
+    <Content Include="Content\Img\hm-content-top.png" />
+    <Content Include="Content\Img\hm-masthead.png" />
+    <Content Include="Content\Img\icon-facebook.png" />
+    <Content Include="Content\Img\icon-feed-28x28.png" />
+    <Content Include="Content\Img\icon-google.png" />
+    <Content Include="Content\Img\icon-icalfeed-16x16.png" />
+    <Content Include="Content\Img\icon-icalfeed-28x28.png" />
+    <Content Include="Content\Img\icon-odatafeed-28x28.png" />
+    <Content Include="Content\Img\icon-twitter.png" />
+    <Content Include="Content\Img\icon-yahoo.png" />
+    <Content Include="Content\Img\logo.png" />
+    <Content Include="Content\Img\menu-left-selected.png" />
+    <Content Include="Content\Img\menu-left.png" />
+    <Content Include="Content\Img\menu-right-selected.png" />
+    <Content Include="Content\Img\menu-right.png" />
+    <Content Include="Content\Img\microformat_hcalendar.png" />
+    <Content Include="Content\Img\Mobile\btn-search.jpg" />
+    <Content Include="Content\Img\Mobile\logo.png" />
+    <Content Include="Content\Img\Mobile\logo_medium.jpg" />
+    <Content Include="Content\Img\Mobile\logo_medium.png" />
+    <Content Include="Content\Img\Mobile\logo_medium_trans.png" />
+    <Content Include="Content\Img\Mobile\logo_small.png" />
+    <Content Include="Content\Img\search-bubble.png" />
+    <Content Include="Content\Img\search-header.png" />
+    <Content Include="Content\Img\yahoo.gif" />
+    <Content Include="Content\spice.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\6_store_locator_icon.png" />
+    <Content Include="Images\career-big.jpg" />
+    <Content Include="Images\Catering.JPG" />
+    <Content Include="Images\coupon1.jpg" />
+    <Content Include="Images\coupon2.jpg" />
+    <Content Include="Images\coupon3.jpg" />
+    <Content Include="Images\coupon4.gif" />
+    <Content Include="Images\egiftcards8.gif" />
+    <Content Include="Images\financing-program.jpg" />
+    <Content Include="Images\Franchise.jpg" />
+    <Content Include="Images\giftcard.jpg" />
+    <Content Include="Images\giftcard6.gif" />
+    <Content Include="Images\giftcard7.gif" />
+    <Content Include="Images\giftcards1.jpg" />
+    <Content Include="Images\Gourmet.JPG" />
+    <Content Include="Images\Gourmetclub.JPG" />
+    <Content Include="Images\icon-store-locator.png" />
+    <Content Include="Images\opportunity_boulevard.jpg" />
+    <Content Include="Images\OrderNow.JPG" />
+    <Content Include="Images\p1.jpg" />
+    <Content Include="Images\p2.jpg" />
+    <Content Include="Images\p3.jpg" />
+    <Content Include="Images\p4.jpg" />
+    <Content Include="Images\p5.jpg" />
+    <Content Include="Images\p6.jpg" />
+    <Content Include="Images\pizza\appetizers_1.png" />
+    <Content Include="Images\pizza\appetizers_2.png" />
+    <Content Include="Images\pizza\Burgers.png" />
+    <Content Include="Images\pizza\Capture.PNG" />
+    <Content Include="Images\pizza\Capture1.PNG" />
+    <Content Include="Images\pizza\chickenslices.png" />
+    <Content Include="Images\pizza\halal-available.PNG" />
+    <Content Include="Images\pizza\icon.png" />
+    <Content Include="Images\pizza\noodles.png" />
+    <Content Include="Images\pizza\noodles_slider.png" />
+    <Content Include="Images\pizza\nystylepizza-gratitude.PNG" />
+    <Content Include="Images\pizza\octopus.png" />
+    <Content Include="Images\pizza\p1.PNG" />
+    <Content Include="Images\pizza\p2.PNG" />
+    <Content Include="Images\pizza\p3.PNG" />
+    <Content Include="Images\pizza\pizza-500x150.jpg" />
+    <Content Include="Images\pizza\pizza.png" />
+    <Content Include="Images\pizza\pizza_slider.png" />
+    <Content Include="Images\pizza\salads.png" />
+    <Content Include="Images\pizza\shoppingcart.png" />
+    <Content Include="Images\pizza\slidepannel.png" />
+    <Content Include="Images\pizza\spicetownlogo.PNG" />
+    <Content Include="Images\pizza\spicetownlogo_small.PNG" />
+    <Content Include="Images\pizza\spicetown_1.png" />
+    <Content Include="Images\pizza\Wraps.png" />
+    <Content Include="Images\sidebar-store-locator-icon.png" />
+    <Content Include="Images\starters.jpg" />
+    <Content Include="nivo-slider\demo\demo.html" />
+    <Content Include="nivo-slider\demo\images\dev7logo.png" />
+    <Content Include="nivo-slider\demo\images\nemo.jpg" />
+    <Content Include="nivo-slider\demo\images\toystory.jpg" />
+    <Content Include="nivo-slider\demo\images\up.jpg" />
+    <Content Include="nivo-slider\demo\images\walle.jpg" />
+    <Content Include="nivo-slider\demo\scripts\jquery-1.6.1.min.js" />
+    <Content Include="nivo-slider\demo\style.css" />
+    <Content Include="nivo-slider\jquery.nivo.slider.js" />
+    <Content Include="nivo-slider\jquery.nivo.slider.pack.js" />
+    <Content Include="nivo-slider\nivo-slider.css" />
+    <Content Include="nivo-slider\themes\default\arrows.png" />
+    <Content Include="nivo-slider\themes\default\bullets.png" />
+    <Content Include="nivo-slider\themes\default\default.css" />
+    <Content Include="nivo-slider\themes\default\loading.gif" />
+    <Content Include="nivo-slider\themes\orman\arrows.png" />
+    <Content Include="nivo-slider\themes\orman\bullets.png" />
+    <Content Include="nivo-slider\themes\orman\loading.gif" />
+    <Content Include="nivo-slider\themes\orman\orman.css" />
+    <Content Include="nivo-slider\themes\orman\readme.txt" />
+    <Content Include="nivo-slider\themes\orman\ribbon.png" />
+    <Content Include="nivo-slider\themes\orman\slider.png" />
+    <Content Include="nivo-slider\themes\pascal\bullets.png" />
+    <Content Include="nivo-slider\themes\pascal\controlnav.png" />
+    <Content Include="nivo-slider\themes\pascal\featured.png" />
+    <Content Include="nivo-slider\themes\pascal\loading.gif" />
+    <Content Include="nivo-slider\themes\pascal\pascal.css" />
+    <Content Include="nivo-slider\themes\pascal\readme.txt" />
+    <Content Include="nivo-slider\themes\pascal\ribbon.png" />
+    <Content Include="nivo-slider\themes\pascal\slider.png" />
+    <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.5.1.js" />
+    <Content Include="Scripts\jquery-1.5.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.11.js" />
+    <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\modernizr-1.7.js" />
+    <Content Include="Scripts\modernizr-1.7.min.js" />
+    <Content Include="Scripts\NerdDinner.js" />
+    <Content Include="spicetown\amx.JPG" />
+    <Content Include="spicetown\appitizers1.jpg" />
+    <Content Include="spicetown\appitizers2.jpg" />
+    <Content Include="spicetown\appitizers3.jpg" />
+    <Content Include="spicetown\appitizers4.jpg" />
+    <Content Include="spicetown\cheesesticks.jpg" />
+    <Content Include="spicetown\cheesesticks1.jpg" />
+    <Content Include="spicetown\cheesestickssithredsauce.jpg" />
+    <Content Include="spicetown\cheesestiks1.jpg" />
+    <Content Include="spicetown\deepfriedwings.jpg" />
+    <Content Include="spicetown\desserts1.jpg" />
+    <Content Include="spicetown\desserts2.jpg" />
+    <Content Include="spicetown\discover.JPG" />
+    <Content Include="spicetown\grillappitizers.jpg" />
+    <Content Include="spicetown\image13141789452.jpg" />
+    <Content Include="spicetown\image13141789529.jpg" />
+    <Content Include="spicetown\image13141789542.jpg" />
+    <Content Include="spicetown\mastercard.JPG" />
+    <Content Include="spicetown\mirchibajji.jpg" />
+    <Content Include="spicetown\nuggets1.jpg" />
+    <Content Include="spicetown\nuggets2.jpg" />
+    <Content Include="spicetown\p1.jpg" />
+    <Content Include="spicetown\p2.jpg" />
+    <Content Include="spicetown\p3.jpg" />
+    <Content Include="spicetown\s1.jpg" />
+    <Content Include="spicetown\s2.jpg" />
+    <Content Include="spicetown\subs1.jpg" />
+    <Content Include="spicetown\subs10.jpg" />
+    <Content Include="spicetown\subs2.jpg" />
+    <Content Include="spicetown\subs3.jpg" />
+    <Content Include="spicetown\subs4.jpg" />
+    <Content Include="spicetown\subs5.jpg" />
+    <Content Include="spicetown\subs6.jpg" />
+    <Content Include="spicetown\subs7.jpg" />
+    <Content Include="spicetown\subs8.jpg" />
+    <Content Include="spicetown\subs9.jpg" />
+    <Content Include="spicetown\visa.JPG" />
+    <Content Include="spicetown\whitenuggets.jpg" />
+    <Content Include="spicetown\whitewings2.jpg" />
+    <Content Include="spicetown\whitewings3.jpg" />
+    <Content Include="spicetown\whitewings9.jpg" />
+    <Content Include="spicetown\wings1.jpg" />
+    <Content Include="spicetown\wings2.jpg" />
+    <Content Include="spicetown\wings3.jpg" />
+    <Content Include="spicetown\wings4.jpg" />
+    <Content Include="spicetown\wings5.jpg" />
+    <Content Include="spicetown\wings6.jpg" />
+    <Content Include="spicetown\wings7.jpg" />
+    <Content Include="spicetown\wings8.jpg" />
+    <Content Include="spicetown\wingsfrenchfries.jpg" />
+    <Content Include="Views\Pizza\About.aspx" />
+    <Content Include="Views\Pizza\Categories.aspx" />
+    <Content Include="Views\Pizza\Contact.aspx" />
+    <Content Include="Views\Pizza\Home.aspx" />
+    <Content Include="Views\Pizza\PrivacyPolicy.aspx" />
+    <Content Include="Views\Pizza\Products.aspx" />
+    <Content Include="Views\Pizza\TermofUse.aspx" />
+    <Content Include="Views\Shared\MainVerticalMenu.ascx" />
+    <Content Include="Views\Pizza\StoreLocator.aspx" />
+    <Content Include="Views\Shared\MenuUserControl.ascx" />
+    <Content Include="Views\SubMenu\Burritos.aspx" />
+    <Content Include="Views\SubMenu\Calzones.aspx" />
+    <Content Include="Views\SubMenu\CheckOut.aspx" />
+    <Content Include="Views\SubMenu\ColdandFresh.aspx" />
+    <Content Include="Views\SubMenu\Desserts.aspx" />
+    <Content Include="Views\SubMenu\Drinks.aspx" />
+    <Content Include="Views\SubMenu\DrinksandDesserts.aspx" />
+    <Content Include="Views\SubMenu\GreekPitas.aspx" />
+    <Content Include="Views\SubMenu\Home.aspx" />
+    <Content Include="Views\SubMenu\Nachos.aspx" />
+    <Content Include="Views\SubMenu\Pastas.aspx" />
+    <Content Include="Views\SubMenu\Pizzas.aspx" />
+    <Content Include="Views\SubMenu\Salads.aspx" />
+    <Content Include="Views\SubMenu\Starters.aspx" />
+    <Content Include="Views\SubMenu\Subs.aspx" />
+    <Content Include="Views\SubMenu\Tachos.aspx" />
+    <Content Include="Views\SubMenu\Wings.aspx" />
+    <Content Include="Views\SubMenu\Wraps.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\MainMenu.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\SubMenu.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SpiceMenu.pdf" />
+    <None Include="STModels\SpiceTown.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SpiceTown.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="STModels\SpiceTown.dbml.layout">
+      <DependentUpon>SpiceTown.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1228</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
