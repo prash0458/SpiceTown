@@ -21,14 +21,26 @@ namespace SpiceTown
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+
+            routes.MapRoute(
+              "DefaultAspx",                                              // Route name
+              "{controller}.aspx/{action}/{id}",                           // URL with parameters
+              new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
+          );
+
+            routes.MapRoute(
+               "DefaultWithoutParameter",
+               "{controller}.aspx/{action}/",
+               new { controller = "Home", action = "Index" });
+
             routes.MapRoute(
                 "Default", // Route name
-                "{controller}/{action}/{id}", // URL with parameters
+                "{controller}.aspx/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
-            routes.MapRoute("Pizza", "{controller}/{action}", new { coltroller = "Pizza", action = "Home" });
-            routes.MapRoute("SubMenu", "SubMenu/{action}", new { coltroller = "SubMenu", action = "StoreLocator" });
+            routes.MapRoute("Pizza", "{controller}.aspx/{action}", new { controller = "Pizza", action = "Home" });
+            routes.MapRoute("SubMenu", "SubMenu/{action}", new { controller = "SubMenu", action = "StoreLocator" });
 
         }
 

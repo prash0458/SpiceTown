@@ -347,3 +347,13 @@ table th {
     background-color: #f8c771;  
     border: solid 1px black; /*e8eef4*/
 }
+
+/*--------------Marquee--*/
+
+#marquee a p
+{
+    text-align:center;   
+    border: solid 1px black;
+    padding:25px 0 25px 0;
+    
+}
