@@ -1,5 +1,4 @@
-﻿/*----------TEST PUSH TEST ----------*/
-body {
+﻿body {
     background-color: #FFA500; /*Orange*/
     font-size: .85em;
     font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
@@ -7,6 +6,11 @@ body {
     padding: 0;
    /* color: #696969; */ /*Dark Grey*/
    
+}
+
+/* HTML SCROLL BAR*/
+html {
+    overflow-y: scroll;
 }
 
 

@@ -1,5 +1,5 @@
-﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-  
+﻿﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
 <!DOCTYPE html>
 <html>
 <head id="Head1" runat="server">
@@ -35,15 +35,15 @@
                    <ul id="menu">
                         <li>
                             <%: Html.ActionLink("Home", "Home", "Pizza")%></li>
+                        <li id="ViewMenu">
+                            <%: Html.ActionLink("View Menu", "Home", "SubMenu")%></li>
                         <li>
-                            <%: Html.ActionLink("View Menu", "StoreLocator", "Pizza")%></li>
-                        <li><a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download
-                            Menu</a> </li>
-                        <li>
+                            <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
+                        <li id="StoreLocator">
                             <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>
-                            <li>
+                        <li id ="Categories">
                             <%: Html.ActionLink("Food,Categories", "Categories", "Pizza")%></li>
-                        <li>
+                        <li id ="About">
                             <%: Html.ActionLink("About", "About", "Pizza")%></li>
                     </ul>
                 </div>
@@ -84,15 +84,10 @@
     var li = $("#" + doctitle);
 
     if (li != undefined) {
-        li.attr("style", "background-color:#FFF8c6;border: 1px solid black;border-right:#FFF8c6; "); //FFF8c6
+        //li.attr("style", "background-color:#FFF8c6;"); //border: 1px solid black;border-right:#FFF8c6; //FFF8c6
         //li.attr("style", "border:1px solid black");
         //li.attr("style", "border: solid 0px 1px 1px 1px black;");       
-        $("#" + doctitle + ">a").attr("style", "background-color:#ADDFFF");
-
-
-
-        //border: 1px solid #d2e4f1; 
-        //border-top:0; 
+        $("#" + doctitle + ">a").attr("style", "background-color:#ADDFFF");       
     }
 </script>
 

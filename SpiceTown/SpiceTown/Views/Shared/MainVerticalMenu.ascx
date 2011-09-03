@@ -1,18 +1,24 @@
 ﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
 <ul id="verticalmenu">
-    <li>
+     <li>
         <%: Html.ActionLink("Home", "Home", "Pizza")%></li>
-          <li>
-        <%: Html.ActionLink("About Us", "About", "Pizza")%></li>
+    <li id="ViewMenu">
+        <%: Html.ActionLink("View Menu", "Home", "SubMenu")%></li>
     <li>
-        <%: Html.ActionLink("View Menu", "Home", "SubMenu")%></li>    
-    <li>
+        <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
+    <li id="StoreLocator">
         <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>
-        <li>
-        <%: Html.ActionLink("Food,Categories", "Categories", "Pizza")%></li>  
+    <li id ="Categories">
+        <%: Html.ActionLink("Food,Categories", "Categories", "Pizza")%></li>    
+    <li id ="Pizzas">
+        <%: Html.ActionLink("Pizza Specials", "Pizzas", "SubMenu")%></li>         
+    <li id ="About">
+        <%: Html.ActionLink("About", "About", "Pizza")%></li>
+    
+   
     <br />
     <li>
-        <%: Html.ActionLink("Pizza Specials", "Pizzas", "SubMenu")%></li>
+        <%: Html.ActionLink("Catering", "Home", "Pizza")%></li>
     <li>
         <%: Html.ActionLink("Kids Corner", "Home", "Pizza")%></li>
     <li>

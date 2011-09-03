@@ -29,7 +29,7 @@
                    {
                    %>               
          <tr>
-             <td style="width:500px">
+             <td style="width:400px">
                  <b>
                      <%=sub.SubName%></b>
                  <br />

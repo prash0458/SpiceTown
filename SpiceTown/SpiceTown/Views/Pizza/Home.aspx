@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <table id ="maindiv">
+    <table id ="maindiv1">
         <tr>
             <td>
                <a href="StoreLocator" ><img src="../../Images/OrderNow.JPG" width="550px;" /></a>
@@ -24,5 +24,5 @@
                 <img src="../../Images/pizza/nystylepizza-gratitude.PNG"  width="550px;" />
             </td></tr>
         </tr>
-    </table>
+    </table>         
 </asp:Content>

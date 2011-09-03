@@ -1,12 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/SubMenu.Master" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-    Home
+   View Menu
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
- <h2>
-        Herndon Home</h2>
+ <h2> View Menu</h2>
    <div id ="maindiv">
     <div id="wrapper">
         <div class="slider-wrapper theme-default">
