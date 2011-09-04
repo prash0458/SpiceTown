@@ -131,5 +131,12 @@ namespace SpiceTown.Controllers
             var a = spicetownRepository.GetAllCategories();
             return View(a);
         }
+
+        public ActionResult Specials()
+        {
+            var a = spicetownRepository.GetAllProducts().Where(x => x.CategoryID == 22);
+
+            return View(a);
+        }
     }
 }

@@ -260,10 +260,12 @@
     <Content Include="spicetown\appitizers2.jpg" />
     <Content Include="spicetown\appitizers3.jpg" />
     <Content Include="spicetown\appitizers4.jpg" />
+    <Content Include="spicetown\burger-r.gif" />
     <Content Include="spicetown\cheesesticks.jpg" />
     <Content Include="spicetown\cheesesticks1.jpg" />
     <Content Include="spicetown\cheesestickssithredsauce.jpg" />
     <Content Include="spicetown\cheesestiks1.jpg" />
+    <Content Include="spicetown\deepfriedwings-r.gif" />
     <Content Include="spicetown\deepfriedwings.jpg" />
     <Content Include="spicetown\desserts1.jpg" />
     <Content Include="spicetown\desserts2.jpg" />
@@ -278,7 +280,9 @@
     <Content Include="spicetown\nuggets2.jpg" />
     <Content Include="spicetown\p1.jpg" />
     <Content Include="spicetown\p2.jpg" />
+    <Content Include="spicetown\p3-r.gif" />
     <Content Include="spicetown\p3.jpg" />
+    <Content Include="spicetown\rectangle-sample-categorygridimage.gif" />
     <Content Include="spicetown\s1.jpg" />
     <Content Include="spicetown\s2.jpg" />
     <Content Include="spicetown\sample-categorygridimage.jpg" />
@@ -331,6 +335,7 @@
     <Content Include="Views\SubMenu\Pastas.aspx" />
     <Content Include="Views\SubMenu\Pizzas.aspx" />
     <Content Include="Views\SubMenu\Salads.aspx" />
+    <Content Include="Views\SubMenu\Specials.aspx" />
     <Content Include="Views\SubMenu\Starters.aspx" />
     <Content Include="Views\SubMenu\Subs.aspx" />
     <Content Include="Views\SubMenu\Tachos.aspx" />

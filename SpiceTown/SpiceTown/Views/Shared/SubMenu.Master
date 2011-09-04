@@ -64,7 +64,7 @@
                             </div>
                         </td>
                        <td>
-                             <marquee id="marquee" behavior="scroll" direction="up" scrollamount="1" height="475" width="142">
+                             <marquee id="marquee" behavior="scroll" direction="up" scrollamount="1" height="575" width="142">
                                 <a href="#" id="marquee1" onclick="return gotoLink(this);"> <p><s>Super Bowl Special # 1</s><br /><t>2 Large 1 Topping Pizzas Plus 20 Wings</t><br /><r>$ 39.99</r></p></a>
                                 <a href="#" id="marquee2" onclick="return gotoLink(this);"> <p><s>Special #3</s><br /><t>Add 2nd Pizza Valid only with Special #3</t><br /><r>$ 10.99</r></p></a>
                                 <a href="#" id="marquee3" onclick="return gotoLink(this);"> <p><s>Special #4</s><br /><t>10 Wings & Medium. 1 Topping Pizza</t><br /><r>$ 15.99</r></p></a>
@@ -124,7 +124,7 @@
     }
 
     function gotoLink(link) {
-        window.location = "/SubMenu.aspx/Pizzas";
+        location.href = '<%: Url.Action("Specials", "SubMenu") %>';      
     }
 </script>
 
