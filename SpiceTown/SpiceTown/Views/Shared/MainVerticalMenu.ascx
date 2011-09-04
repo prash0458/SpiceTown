@@ -3,7 +3,7 @@
      <li>
         <%: Html.ActionLink("Home", "Home", "Pizza")%></li>
     <li id="ViewMenu">
-        <%: Html.ActionLink("View Menu", "Home", "SubMenu")%></li>
+        <%: Html.ActionLink("View Menu", "StoreLocator", "Pizza")%></li>
     <li>
         <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
     <li id="StoreLocator">

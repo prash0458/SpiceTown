@@ -246,7 +246,7 @@ ul#verticalmenu li.selected a
 }
 #maindiv
 {
-    width:562px;
+   width:555px;
     height:auto;
 }
 #maindiv tr td ul li
@@ -268,7 +268,7 @@ list-style:none;
 
 #orderandprice
 {
-    width:562px;
+    width:555px;
     vertical-align:top;   
     border:1;
 }
@@ -306,7 +306,7 @@ list-style:none;
 
 #catergories
 {
-      width:562px;
+      width:555px;
     vertical-align:top;
     }
     
@@ -350,6 +350,7 @@ table th {
 
 /*--------------Marquee--*/
 
+
 #marquee a p
 {
     text-align:center;   
@@ -357,3 +358,9 @@ table th {
     padding:25px 0 25px 0;
     
 }
+
+#marquee a p s{text-decoration:underline;font-weight:normal;}
+
+#marquee a p t{font-weight:normal;}
+
+#marquee a p r{ color:Red;font-size:medium;}

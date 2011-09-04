@@ -125,5 +125,11 @@ namespace SpiceTown.Controllers
                 return RedirectToAction("LogOn", "Account");
             return View();  ///"CheckOut", myCart);
         }
+
+        public ActionResult Categories()
+        {
+            var a = spicetownRepository.GetAllCategories();
+            return View(a);
+        }
     }
 }

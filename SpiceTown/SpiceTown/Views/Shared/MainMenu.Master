@@ -28,7 +28,7 @@
                         <li>
                             <%: Html.ActionLink("Home", "Home", "Pizza")%></li>
                         <li id="ViewMenu">
-                            <%: Html.ActionLink("View Menu", "Home", "SubMenu")%></li>
+                            <%: Html.ActionLink("View Menu", "StoreLocator", "Pizza")%></li>
                         <li>
                             <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
                         <li id="StoreLocator">
@@ -44,7 +44,9 @@
                 <table>
                     <tr>
                         <td  style="background-color:#CCFFCC">
+                            <div>
                             <% Html.RenderPartial("MainVerticalMenu"); %>
+                            </div>
                         </td>
                         <td>
                             <div>
@@ -52,11 +54,38 @@
                             </div>
                         </td>
                         <td>
-                            <marquee id ="marquee" behavior="scroll" direction="up" scrollamount="1" height="475" width="120">
-                                <a href="#" id="marquee1" onclick="return gotoLink(this);"> <p>This is a test of a Smooth Marquee using jquery 1.</p></a>
-                                <a href="#" id="marquee2" onclick="return gotoLink(this);"> <p>This is a test of a Smooth Marquee using jquery 2.</p></a>
-                                <a href="#" id="marquee3" onclick="return gotoLink(this);"> <p>This is a test of a Smooth Marquee using jquery 3.</p></a>
-                            </marquee>    
+                            <marquee id="marquee" behavior="scroll" direction="up" scrollamount="1" height="475" width="142">
+                                <a href="#" id="marquee1" onclick="return gotoLink(this);"> <p><s>Super Bowl Special # 1</s><br /><t>2 Large 1 Topping Pizzas Plus 20 Wings</t><br /><r>$ 39.99</r></p></a>
+                                <a href="#" id="marquee2" onclick="return gotoLink(this);"> <p><s>Special #3</s><br /><t>Add 2nd Pizza Valid only with Special #3</t><br /><r>$ 10.99</r></p></a>
+                                <a href="#" id="marquee3" onclick="return gotoLink(this);"> <p><s>Special #4</s><br /><t>10 Wings & Medium. 1 Topping Pizza</t><br /><r>$ 15.99</r></p></a>
+                                <a href="#" id="marquee4" onclick="return gotoLink(this);"> <p><s>Special #5</s><br /><t>10 Wings & Lrg. 1 Topping Pizza</t><br /><r>$ 17.99</r></p></a>
+                                <a href="#" id="marquee5" onclick="return gotoLink(this);"> <p><s>Special #6</s><br /><t>10 Wings & X-Large 1 Topping Pizza</t><br /><r>$ 19.99</r></p></a>
+
+                                <a href="#" id="marquee6" onclick="return gotoLink(this);"> <p><s>Family Special # 1</s><br /><t>30 Wings & Large. 1 Topping Pizza Any 2-Litre Coke Product</t><br/><r>$ 29.99</r></p></a>
+                                <a href="#" id="marquee7" onclick="return gotoLink(this);"> <p><s>Monday Special</s><br /><t>Large 1 Topping Pizza</t><br /><r> $ 7.99</r></p></a>
+                                <a href="#" id="marquee8" onclick="return gotoLink(this);"> <p><s>Tuesday Special</s><br /><t>Tuesday Special 2 Large 1 Topping Pizzas</t><br /> <r>$ 13.98</r></p></a>
+
+                                <a href="#" id="marquee9" onclick="return gotoLink(this);"> <p><s>Party Pack #1</s><br /><t>Medium 1 Topping Pizzas Plus 20 Wings</t><br /><r>$ 20.99</r></p></a>
+                                <a href="#" id="marquee10" onclick="return gotoLink(this);"> <p><s>Party Pack #2</s><br /><t>1 X- Large 1 Topping Pizza Plus 20 Wings</t><br /><r>$ 29.99</r></p></a>
+                                <a href="#" id="marquee11" onclick="return gotoLink(this);"> <p><s>Special #1</s><br /><t>Medium 12" 2 Topping Pizza</t><br /><r>$ 9.99</r></p></a>
+                                <a href="#" id="marquee12" onclick="return gotoLink(this);"> <p><s>Special #1</s><br /><t>2nd Pizza Valid only with Special # 1</t><br /><r>$ 7.99</r></p></a>
+
+                                <a href="#" id="marquee13" onclick="return gotoLink(this);"> <p><s>Special #2</s><br /><t>1 Large 14" 2 Topping Pizza</t><br /><r>$ 11.99</r></p></a>
+                                <a href="#" id="marquee14" onclick="return gotoLink(this);"> <p><s>Special #2</s><br /><t>Add 2nd Pizza Valid only with Special # 2</t><br /><r>$ 9.99</r> </p></a>
+                                <a href="#" id="marquee15" onclick="return gotoLink(this);"> <p><s>Special #3</s><br /><t>X-Large 16" 2 Topping Pizza</t><br /><r>$ 12.99</r></p></a>
+                                <a href="#" id="marquee16" onclick="return gotoLink(this);"> <p><t>1 Slice Cheese Carry Out Only</t><br /><r>$ 2.0</r></p></a>
+
+                                <a href="#" id="marquee17" onclick="return gotoLink(this);"> <p><t>2 Pc Fried Chicken Meal with 20 oz coke Carry Out Only</t><br /><r>$ 6.5</r> </p></a>
+                                <a href="#" id="marquee18" onclick="return gotoLink(this);"> <p><t>Burritos Meal Carry Out Only</t><br /> <r>$ 5.99</r></p></a>
+                                <a href="#" id="marquee19" onclick="return gotoLink(this);"> <p><t>Kids Meal Carry Out Only</t> <br /><r>$ 5.99</r></p></a>
+                                <a href="#" id="marquee20" onclick="return gotoLink(this);"> <p><t>Large 1 topping Pizza with any 2 Litre Coke product Carry Out Only</t><br/><r>$ 9.99</r></p></a>
+
+                                <a href="#" id="marquee21" onclick="return gotoLink(this);"> <p><t>Lunch Special (Carryout Only) Carry Out Only<br /> <r>$ 7.99</r></p></a>
+                                <a href="#" id="marquee22" onclick="return gotoLink(this);"> <p><t>Tacos Meal Carry Out Only</t><br /> <r>$ 5.99</r></p></a>
+                                <a href="#" id="marquee23" onclick="return gotoLink(this);"> <p><t>Two slice Cheese with 20 oz coke Carry Out Only</t><br /> <r>$ 4.99</r></p></a>
+                                <a href="#" id="marquee24" onclick="return gotoLink(this);"> <p><t>Pasta Special Carry Out Only</t><br /> <r>$ 7.99</r></p></a>
+
+                            </marquee>
                         </td>
                     </tr>
                 </table>

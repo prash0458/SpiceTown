@@ -20,7 +20,7 @@
                           {%>
                         <li id="product<%=product.ProductID %>"><b>
                        
-                            <%=product.ProductName %></b> Price: $<%=product.UnitPrice.ToString() %> <br />
+                            <%=product.ProductName %></b> $<%=product.UnitPrice.ToString() %> <br />
                             <i><%=product.Description %></i>
 
                         </li>

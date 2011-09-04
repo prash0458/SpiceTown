@@ -281,6 +281,7 @@
     <Content Include="spicetown\p3.jpg" />
     <Content Include="spicetown\s1.jpg" />
     <Content Include="spicetown\s2.jpg" />
+    <Content Include="spicetown\sample-categorygridimage.jpg" />
     <Content Include="spicetown\subs1.jpg" />
     <Content Include="spicetown\subs10.jpg" />
     <Content Include="spicetown\subs2.jpg" />
@@ -307,6 +308,7 @@
     <Content Include="spicetown\wingsfrenchfries.jpg" />
     <Content Include="Views\Pizza\About.aspx" />
     <Content Include="Views\Pizza\Categories.aspx" />
+    <Content Include="Views\Pizza\CategoriesGrid.aspx" />
     <Content Include="Views\Pizza\Contact.aspx" />
     <Content Include="Views\Pizza\Home.aspx" />
     <Content Include="Views\Pizza\PrivacyPolicy.aspx" />
@@ -317,6 +319,7 @@
     <Content Include="Views\Shared\MenuUserControl.ascx" />
     <Content Include="Views\SubMenu\Burritos.aspx" />
     <Content Include="Views\SubMenu\Calzones.aspx" />
+    <Content Include="Views\SubMenu\Categories.aspx" />
     <Content Include="Views\SubMenu\CheckOut.aspx" />
     <Content Include="Views\SubMenu\ColdandFresh.aspx" />
     <Content Include="Views\SubMenu\Desserts.aspx" />

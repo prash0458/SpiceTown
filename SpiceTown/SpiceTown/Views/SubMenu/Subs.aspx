@@ -7,8 +7,7 @@
     <%--<img src="../../Images/pizza/salads.png" style="width: 557px; height: 217px" />--%>
     <img src="../../spicetown/subs5.jpg" />
     <img src="../../spicetown/subs4.jpg" />
-    <h2>
-        Subs</h2>
+    <h2>Subs</h2>
         <h5>All Subs are served on white or whole wheat roll with free chips & pickle.<br /> Platter: Fries & Cole Slaw Add $2.69 <br />*Includes lettuce, tomato & mayo</h5>
    <div id="maindiv">
     <p style="text-align:right"> <%: Html.ActionLink("Cold & Fresh", "ColdandFresh", "SubMenu")%></p>

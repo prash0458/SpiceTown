@@ -12,13 +12,6 @@ C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTow
 C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
 C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.dll
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.pdb
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.dll
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.xml
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
-C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb
 C:\Work Projects\SpiceTown\SpiceTown\bin\SpiceTown.dll
 C:\Work Projects\SpiceTown\SpiceTown\bin\SpiceTown.pdb
 C:\Work Projects\SpiceTown\SpiceTown\bin\EntityFramework.dll
@@ -26,3 +19,10 @@ C:\Work Projects\SpiceTown\SpiceTown\bin\EntityFramework.xml
 C:\Work Projects\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
 C:\Work Projects\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
 C:\Work Projects\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.dll
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\SpiceTown.pdb
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.dll
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\bin\EntityFramework.xml
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
+C:\Users\Prash\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb

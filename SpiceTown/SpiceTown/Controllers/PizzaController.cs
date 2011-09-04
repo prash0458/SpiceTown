@@ -59,6 +59,18 @@ namespace SpiceTown.Controllers
             return View(categories);
         }
 
+        public ActionResult CategoriesGrid()
+        {
+            var categories = spicetownRepository.GetAllCategories().ToList();
+            
+            //var list = source.Select(s=>new { ID = s.ID, Name = s.Name }).ToList();
+            //var lilist = categories.Select(x => new { CategoryID = x.CategoryID, CategoryName = x.CategoryName, Description = x.Description }).ToList();
+
+
+            return View(categories);
+        }
+
+
         public ActionResult Contact()
         {
             return View();

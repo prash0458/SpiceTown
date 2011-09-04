@@ -19,7 +19,7 @@
                         <%foreach (SpiceTown.STModels.Product product in Model)
                           {%>
                         <li id="product<%=product.ProductID %>">
-                        <b> <%=product.ProductName %> </b>Price: $<%=product.UnitPrice %> <br />
+                        <b> <%=product.ProductName %> </b>$<%=product.UnitPrice %> <br />
                             <%=product.Description %>
                         </li>
                         <% }%>

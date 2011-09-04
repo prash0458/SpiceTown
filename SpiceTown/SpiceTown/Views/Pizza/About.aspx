@@ -6,10 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">   
     <div>
         <table>           
-            <tr>
-            <td>
-                <img src="../../spicetown/image13141789529.jpg" /><img src="../../spicetown/subs8.jpg" />
-            </td>
+            <tr>           
                 <td>
                     <img src="../../spicetown/p2.jpg" />
                 </td>

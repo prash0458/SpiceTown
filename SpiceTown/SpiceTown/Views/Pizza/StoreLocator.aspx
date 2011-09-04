@@ -12,7 +12,7 @@
             <td>
                 <ul>
                     <li style="font-size: large;">
-                        <%: Html.ActionLink("Herndon & Reston","Home","SubMenu") %></li>
+                        <%: Html.ActionLink("Herndon & Reston","CategoriesGrid","Pizza") %></li>
                     <li>150 Elden Street Suite 180 </br> Herndon, VA 20170 </li>
                     <li>(703) 471-6768</li>
                     <a href="#" onclick="return window.open('http://maps.google.com/maps?hl=en&q=150+Elden+Street+Suite+180+,++Herndon,+VA++20170&bav=on.2,or.r_gc.r_pw.&biw=1600&bih=799&um=1&ie=UTF-8&hq=&hnear=0x89b637fcdbea5ebd:0xf93c9cd80c8f4f9f,150+Elden+St+%23180,+Herndon,+VA+20170&gl=us&ei=uLwsTvrUJJG4sQOCndXJCg&sa=X&oi=geocode_result&ct=title&resnum=1&ved=0CBUQ8gEwAA');">
@@ -21,7 +21,7 @@
                         <br />
                     </li>
                     <li style="font-size: large;">
-                        <%: Html.ActionLink("Sterling","Home","SubMenu") %></li>
+                        <%: Html.ActionLink("Sterling", "CategoriesGrid", "Pizza")%></li>
                     <li>22330 S Sterling Blvd Suite 105
                         <br />
                         Sterling, VA 20164 </li>
