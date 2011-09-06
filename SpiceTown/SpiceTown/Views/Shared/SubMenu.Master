@@ -43,8 +43,8 @@
                             <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
                         <li id="StoreLocator">
                             <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>
-                        <li id ="Categories">
-                            <%: Html.ActionLink("Food,Categories", "Categories", "Pizza")%></li>
+                        <li id ="Contact">
+                            <%: Html.ActionLink("Contact", "Contact", "Pizza")%></li>
                         <li id ="About">
                             <%: Html.ActionLink("About", "About", "Pizza")%></li>
                     </ul>

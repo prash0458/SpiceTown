@@ -7,24 +7,20 @@
     <li>
         <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
     <li id="StoreLocator">
-        <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>
-    <li id ="Categories">
-        <%: Html.ActionLink("Food,Categories", "Categories", "Pizza")%></li>    
+        <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>    
     <li id ="Pizzas">
-        <%: Html.ActionLink("Pizza Specials", "Pizzas", "SubMenu")%></li>         
+        <%: Html.ActionLink("Pizza Specials", "Pizzas", "SubMenu")%></li>
+    <li id ="Contact">
+        <%: Html.ActionLink("Contact", "Contact", "Pizza")%></li>         
     <li id ="About">
         <%: Html.ActionLink("About", "About", "Pizza")%></li>
     
    
     <br />
     <li>
-        <%: Html.ActionLink("Catering", "Home", "Pizza")%></li>
+        <%: Html.ActionLink("Specials", "Specials", "SubMenu")%></li>
     <li>
-        <%: Html.ActionLink("Kids Corner", "Home", "Pizza")%></li>
+        <%: Html.ActionLink("Kids Corner", "Wraps", "SubMenu")%></li>
     <li>
-        <%: Html.ActionLink("ShopDeVocille", "Home", "Pizza")%></li>
-    <%--<li>
-        <%: Html.ActionLink("Halal Available", "Home", "Pizza", new { @style = "color:blue;" })%></li>--%>
-    <li>
-        <img src="../../Images/pizza/halal-available.PNG" /></li>
+        <%: Html.ActionLink("Halal Available", "Home", "Pizza")%></li>    
 </ul>

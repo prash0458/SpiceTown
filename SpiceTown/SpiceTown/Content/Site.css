@@ -323,3 +323,48 @@ div#title {
 .tri-state {
     width: 6em;
 }
+
+/*-------------GOOGLE--------------*/
+
+.jhp input[type="submit"]:focus
+{
+    border:1px solid #4D90FE;
+    outline: medium none;    
+}
+    
+.jhp input[type="submit"]:hover
+{
+    background-color:#F8F8F8;
+    border:1px solid #C6C6C6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#333333;
+}
+
+.jhp input[type="submit"] {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #666666;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 27px;
+    margin: 11px 6px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+}
+input {
+    -moz-box-sizing: content-box;
+    -moz-padding-end: 0;
+    -moz-padding-start: 0;
+}
+
+input {
+    -moz-box-sizing: content-box;
+}
+
+input {
+    font-family: inherit;
+}

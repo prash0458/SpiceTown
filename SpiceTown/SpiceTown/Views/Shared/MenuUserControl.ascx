@@ -26,6 +26,8 @@
         <%: Html.ActionLink("Burritos", "Burritos", "SubMenu")%></li>
     <li id="Wings">
         <%: Html.ActionLink("Wings", "Wings", "SubMenu")%></li>
+    <li id="Specials">
+        <%: Html.ActionLink("Specials", "Specials", "SubMenu")%></li>
     <li id="Drinks">
         <%: Html.ActionLink("Drinks", "Drinks", "SubMenu")%></li>
     <li id="Desserts">

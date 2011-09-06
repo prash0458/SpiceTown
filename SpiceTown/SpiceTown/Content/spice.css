@@ -102,21 +102,25 @@ ul#menu li a {
     font-weight: bold;
     text-decoration: none;
     line-height: 2.8em;
-    background-color: #e8eef4; /*grey*/
+    background-color: #FFF; /*grey  e8eef4*/
     color: #034af3; /*Dark Blue*/
-    border-radius: 4px 4px 0 0;
+    
     -webkit-border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;          
+    -moz-border-radius: 4px 4px 0 0;  
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;        
 }
 
 ul#menu li a:hover {
-    background-color: #fff;
+    background-color: #e8eef4;
     text-decoration: none;
+    border:1px solid #C6C6C6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
 }
 
 ul#menu li a:active {
-    background-color: #a6e2a6; /*light green*/
-    text-decoration: none;  
+     border:1px solid #4D90FE;
+     outline: medium none;     
 }
 
 ul#menu li.selected a {
@@ -213,25 +217,41 @@ ul#verticalmenu li a
     font-weight: bold;
     padding: 5px 5px  ;
     text-decoration: none;         
-    color:Maroon;         
+    color:Maroon;      
+    display:block;
+    width:130px;
+    
+     -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;  
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;       
 }
 
 ul#verticalmenu li a:hover 
 {
     color:Red;   
     text-decoration: none;
+    
+    
+    background-color: #fff;   
+    border:1px solid #C6C6C6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
 }
 
 ul#verticalmenu li a:active {
-    background-color: #a6e2a6; /*lite green*/
-    text-decoration: none;
+     border:1px solid #4D90FE;
+     outline: medium none;    
 }
 
-ul#verticalmenu li.selected a
+/*ul#verticalmenu li.selected a
 {
-    background-color: #fff;
-    color: #000;
-}
+    
+      border:1px solid #4D90FE;
+     outline: medium none;  
+     
+   /* background-color: #fff;
+    color: #000; */
+/*} */
 
 .mainmenucontainer{height:inherit;}
 .mainmenucontainer table tr
@@ -364,3 +384,9 @@ table th {
 #marquee a p t{font-weight:normal;}
 
 #marquee a p r{ color:Red;font-size:medium;}
+
+
+.box {
+background-image: url(../../Images/pizza/halal-available.PNG);
+
+}
