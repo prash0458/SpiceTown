@@ -5,11 +5,12 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <img src="../../spicetown/subs4.jpg" />
-    <img src="../../spicetown/subs7.jpg" />
+    
 <h2>Cold & Fresh</h2>
-<h5>All Subs are served on white or whole wheat roll with free chips & pickle.<br /> Platter: Fries & Cole Slaw Add $2.69 <br />*Includes lettuce, tomato & mayo</h5>
+<%--<h5>All Subs are served on white or whole wheat roll with free chips & pickle.<br /> Platter: Fries & Cole Slaw Add $2.69 <br />*Includes lettuce, tomato & mayo</h5>--%>
    <div id="maindiv">
+   <img src="../../spicetown/subs4.jpg" />
+    <img src="../../spicetown/subs7.jpg" />
      <table id="orderandprice">
          <tr >
              <th >
@@ -37,10 +38,10 @@
                      <%=sub.Description%></i>
              </td>
              <td>
-                 <%=sub.Size_7_Inch%>
+                 $ <%=sub.Size_7_Inch%>
              </td>
              <td>
-                 <%=sub.Size_14_Inch%>
+                $ <%=sub.Size_14_Inch%>
              </td>            
          </tr>
              <% }                   

@@ -6,12 +6,12 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
- <%--<img src="../../Images/pizza/appetizers_2.png" />--%>
-    <%--<img src="../../Images/pizza/appetizers_2.png" style="width: 557px; height: 217px" />--%>
-    <img src="../../spicetown/subs8.jpg" /><img src="../../spicetown/wings5.jpg" />
+     
     <h2>
         Salads</h2>
     <div id="maindiv">
+    <img src="../../spicetown/subs8.jpg" />
+    <img src="../../spicetown/wings5.jpg" />
         <table id="orderandprice">
             <tr>
                 <td>

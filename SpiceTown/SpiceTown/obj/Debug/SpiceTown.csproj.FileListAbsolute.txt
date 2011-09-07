@@ -26,3 +26,10 @@ C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\bin\EntityF
 C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
 C:\Users\Prash\documents\visual studio 2010\Work\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\bin\SpiceTown.dll
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\bin\SpiceTown.pdb
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\bin\EntityFramework.dll
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\bin\EntityFramework.xml
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\obj\Debug\SpiceTown.dll
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown\obj\Debug\SpiceTown.pdb

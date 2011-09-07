@@ -5,10 +5,11 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <img src="../../spicetown/wings6.jpg" />
-    <img src="../../spicetown/wings5.jpg" />
+   
 <h2>Wings</h2>
-<div id="maindiv">
+<div id="maindiv"> 
+<img src="../../spicetown/wings6.jpg" />
+    <img src="../../spicetown/wings5.jpg" />
         <table id="orderandprice">
             <tr>
                 <td>

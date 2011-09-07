@@ -22,3 +22,11 @@ C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTow
 C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown.Tests\obj\Debug\SpiceTown.Tests.dll
 C:\Users\prashanth.velijala\Documents\Visual Studio 2010\Work\SpiceTown\SpiceTown.Tests\obj\Debug\SpiceTown.Tests.pdb
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\bin\Debug\SpiceTown.Tests.dll.config
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\bin\Debug\SpiceTown.Tests.dll
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\bin\Debug\SpiceTown.Tests.pdb
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\bin\Debug\SpiceTown.dll
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\bin\Debug\SpiceTown.pdb
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\obj\Debug\SpiceTown.Tests.dll
+C:\Users\prashanth.velijala\github\SpiceTown\SpiceTown\SpiceTown.Tests\obj\Debug\SpiceTown.Tests.pdb
