@@ -18,38 +18,84 @@
     <script src="../../nivo-slider/jquery.nivo.slider.js" type="text/javascript"></script>
     <script src="../../nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
     <link href="../../nivo-slider/nivo-slider.css" rel="stylesheet" type="text/css" />
+
+
+   
 </head>
 <body>
     <div class="body-container">
         <div class="page">
-            <div id="header">
-                 <div id="title">
-                     <a href="<%: Url.Action("Home","Pizza") %>"><img style="height:120px;" src="../../Images/pizza/spicetownlogo_small.PNG" /></a>
-                </div>
-                <div id="logindisplay">
-                    <img src="../../Images/pizza/addlittlespiceinyourlife.PNG" align="left" width="628px" height="20px" />
-                    <img src="../../Images/pizza/spicetownlogo_small.PNG"  align ="right" style="height:120px;"/>
-                    <% Html.RenderPartial("LogOnUserControl"); %> 
-                   
-                    
-                </div>                 
-                <div id="menucontainer">                
-                   <ul id="menu">
-                        <li>
-                            <%: Html.ActionLink("Home", "Home", "Pizza")%></li>
-                        <li id="ViewMenu">
-                            <%: Html.ActionLink("View Menu", "StoreLocator", "Pizza")%></li>
-                        <li>
-                            <a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download Menu</a> </li>
-                        <li id="StoreLocator">
-                            <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>
-                        <li id ="Contact">
-                            <%: Html.ActionLink("Contact", "Contact", "Pizza")%></li>
-                        <li id ="About">
-                            <%: Html.ActionLink("About", "About", "Pizza")%></li>
-                    </ul>
-                </div>
-            </div>
+           <div class="header">
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <img src="../../Images/pizza/spicetownlogo_small.PNG" style="height:120px;" />
+                    </div>
+                </td>
+                <td>
+                    <div style="width:628px">
+                        <table style="width:628px">
+                        <tr>
+                        <td>
+                        <img src="../../Images/pizza/addlittlespiceinyourlife.PNG" align="middle" height="20px" />
+                        </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <div>                                    
+                                        <div id="fb-root">
+                                        </div>       
+                                        <script src="http://connect.facebook.net/en_US/all.js#appId=113460175419169&amp;xfbml=1" type="text/javascript"></script>                                  
+                                        <fb:like style="text-align: left;" href="http://www.facebook.com/pages/Spice-Town/132155733486620"
+                                            send="true" width="450" show_faces="true" font=""></fb:like>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="text-align: right;" id="">
+                                        <% if (Request.IsAuthenticated) {   %>
+                                        <dfn style="color: Blue;">Welcome, </dfn><dfn style="color: Black;">
+                                            <%: Page.User.Identity.Name %> !</dfn>
+                                        <%: Html.ActionLink("Log Off", "LogOff", "Account", "", new { @style = "color:blue;" })%>
+                                        <% } else { %>
+                                        <%: Html.ActionLink("Customer Log-in", "LogOn", "Account","", new { @style = "color:blue;" })%>
+                                        <%  } %>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div id="menucontainer">
+                                        <ul id="menu">
+                                            <li>
+                                                <%: Html.ActionLink("Home", "Home", "Pizza")%></li>
+                                            <li id="ViewMenu">
+                                                <%: Html.ActionLink("View Menu", "StoreLocator", "Pizza")%></li>
+                                            <li><a href="#" onclick="return window.open('../../Content/SpiceMenu.pdf')">Download
+                                                Menu</a> </li>
+                                            <li id="StoreLocator">
+                                                <%: Html.ActionLink("Locations", "StoreLocator", "Pizza")%></li>
+                                            <li id="Contact">
+                                                <%: Html.ActionLink("Contact", "Contact", "Pizza")%></li>
+                                            <li id="About">
+                                                <%: Html.ActionLink("About", "About", "Pizza")%></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>               
+                <td>
+                    <div>
+                        <img src="../../Images/pizza/spicetownlogo_small.PNG" style="height:120px;" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
             <div class="mainmenucontainer">
                 <table>
                     <tr>
