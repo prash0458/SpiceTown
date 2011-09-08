@@ -157,8 +157,8 @@ ul#verticalmenu li a:active {     border:1px solid #4D90FE;     outline: medium 
 /*************** mainmenucontainer *************************/
 /* TABLE ----------------------------------------------------------*/
 
-table {    border: solid 1px #99999;  /*e8eef4*/    border-collapse: collapse;}
-table td {    padding: 0px;    border: solid 1px #e8eef4;}
+table {    /*e8eef4*/    border-collapse: collapse;} /*border: solid 1px #99999; */
+table td {    padding: 0px; }  /* border: solid 1px #e8eef4;*/
 table th {    padding: 6px 5px;    text-align: center;    background-color: #f8c771;      border: solid 1px black; /*e8eef4*/}
 /*--------------Marquee--*/
 #marquee a p{    text-align:center;       border: solid 1px black;    padding:25px 0 25px 0;    background-color:#CCFB5D;    }
