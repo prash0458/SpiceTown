@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-this is code till the following changes
 
-1)main link buttons edges are made round
-2)made the images in the categroygrid page rounded;
-3)all the links are working good no error pages.
-4)added all the required data from the spice-town menu to the database
-5)In the each individual pages like pizzas, subs etc kept two images with same size with shadow, using the border radius style and box-shadow styles
-6)Table tr td div margin lines are remived.
-7)vertical menu is changed removed useless links
-8)added images scrolling from bottom to top in main and sub menu master page -so valid for all pages
-  --need to add the code to add the 4 images sliding on the right column
-9)on reload facebook like button is good except the (working master page)
-10)formatted the css etc.
-=======
 the main header in the main master and submenu master page need to be modified and changes and still expecting...
->>>>>>> 39728789354b80635d95285b0ab40b1f00fb1713
+
