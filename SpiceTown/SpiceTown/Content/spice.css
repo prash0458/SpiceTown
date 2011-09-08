@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿/*-------------------SpiceTown CSS-----master---------------------*/
+=======
+﻿/*-------------------SpiceTown CSS--- branch---------------------*/
+>>>>>>> 39728789354b80635d95285b0ab40b1f00fb1713
 body {    background-color: #FFA500; /*Orange*/    font-size: .85em;    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;    margin : 0;    padding: 0;   /* color: #696969; */ /*Dark Grey*/  }
 
 /* HTML SCROLL BAR*/
